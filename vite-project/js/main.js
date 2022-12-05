@@ -1,7 +1,6 @@
-import "../styles/style.css";
-import javascriptLogo from "../js/javascript.svg";
-import { setupCounter } from "../js/counter.js";
-
+import "../styles/style.css" ;
+import javascriptLogo from "../js/javascript.svg" ;
+import { setupCounter } from "../js/counter.js" ;
 document.querySelector('#app').innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">

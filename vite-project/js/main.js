@@ -1,6 +1,7 @@
 import "../styles/style.css" ;
 import javascriptLogo from "../js/javascript.svg" ;
 import { setupCounter } from "../js/counter.js" ;
+import { League } from "./array.js";
 document.querySelector('#app').innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
@@ -20,3 +21,4 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
+console.log(League);

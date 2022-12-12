@@ -1,4 +1,4 @@
-const League = [
+export const League = [
   {
     champion: "Yuumi",
     role: [support],
@@ -69,7 +69,126 @@ const League = [
     role:[jungle],
     toxic: no,
     permaban: yes,
-    price:
-    img: ""
+    price: 4800,
+    img:"https://static.wikia.nocookie.net/leagueoflegends/images/a/a8/Lee_Sin_OriginalCentered.jpg/revision/latest?cb=20180414203354",
+  },
+  {
+    champion:"Sejuani",
+    role:[jungle,top],
+    toxic:no,
+    permaban:no,
+    price: 4800,
+    img:"https://cdn.vox-cdn.com/thumbor/nAgejTmGhnsFuV-CdVOjNcpzsrY=/0x0:1215x717/1400x1400/filters:focal(511x262:705x456):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/54343885/Classic_Sejuani.0.jpg",
+  },
+  {
+    champion:"Lulu",
+    role:[support],
+    toxic:no,
+    permaban:no,
+    price:4800,
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPCvweVa0BFE3n1hAy3n27NS5vy6D5J0hShwAp-L83Q&s",
+  },
+  {
+    champion: "Draven",
+    role: [adc],
+    toxic:yes,
+    permaban: no,
+    price: 4800,
+    img:"https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_0.jpg",
+  },
+  
+  {
+    champion: "Nautilus",
+    role:[support],
+    toxic:no,
+    permaban:no,
+    price: 4800,
+    img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nautilus_0.jpg",
+  },
+        
+  {
+    champion: "Vex",
+    role:[mid],
+    toxic:no,
+    permaban:no,
+    price: 6300,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxZWpibXZCDRA_rnq9LnsjXeobhihiIxTV3A2Zxo7--A&s",
+  },
+  {
+    champion: "Vi",
+    role:[jungle],
+    toxic:no,
+    permaban:no,
+    price: 4800,
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAIu32k_-QvxEQo-iF_7FteWc4eSO1Ai9a-3E0xgx&s",
+  
+  },
+  {
+    champion: "Orianna",
+    role:[mid],
+    toxic:no,
+    permaban:no,
+    price:4800,
+    img:"https://static.wikia.nocookie.net/leagueoflegends/images/8/8e/Orianna_OriginalCentered.jpg/revision/latest/scale-to-width-down/1280?cb=20180414203501",
+
+  },
+  {
+    champion: "Wukong",
+    role:[top,jungle],
+    toxic:no,
+    permaban:no,
+    price:4800,
+    img:"https://static.wikia.nocookie.net/leagueoflegends/images/4/48/Wukong_OriginalSkin.jpg/revision/latest?cb=20181021060656",
+
+  },
+  {
+    champion:"Sion",
+    role:[top],
+    toxic:yes,
+    permaban:no,
+    price:1350,
+    img:"https://static.wikia.nocookie.net/leagueoflegends/images/f/fc/Sion_OriginalCentered.jpg/revision/latest/scale-to-width-down/1280?cb=20180414203549",
+  },
+  {
+    champion:"Senna",
+    role:[support,adc],
+    toxic:no,
+    permaban:no,
+    price:6300,
+    img:"https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_0.jpg",
+  },
+  {
+    champion: "Rammus",
+    role:[jungle],
+    toxic:no,
+    permaban:no,
+    price:1350,
+    img:"https://static.wikia.nocookie.net/leagueoflegends/images/3/3b/Rammus_OriginalCentered.jpg/revision/latest/scale-to-width-down/1280?cb=20180414203505",
+  },
+  {
+    champion:"Vladimir",
+    role:[top],
+    toxic:no,
+    permaban:no,
+    price:3150,
+    img:"https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vladimir_0.jpg",
+  },
+  {
+    champion: "Shaco",
+    role:[jungle],
+    toxic:yes,
+    permaban:no,
+    price:3150,
+    img:"https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shaco_0.jpg",
+
+  },
+  {
+    champion: "Pyke",
+    role:[support],
+    toxic:no,
+    permaban:no,
+    price:6300,
+    img:"https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pyke_0.jpg",
+
   }
 ];

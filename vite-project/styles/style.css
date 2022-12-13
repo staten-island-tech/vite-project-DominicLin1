@@ -14,7 +14,9 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+.background{
+  background-image: url(https://static.wikia.nocookie.net/shipping/images/8/84/League_of_Legends_logo.jpeg/revision/latest?cb=20220203113411);
+}
 a {
   font-weight: 500;
   color: #646cff;

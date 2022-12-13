@@ -1,7 +1,7 @@
 export const League = [
   {
     champion: "Yuumi",
-    role: [support],
+    role: ["support"],
     toxic: yes,
     permaban: yes,
     price: 6300,
@@ -9,7 +9,7 @@ export const League = [
   },
   {
     champion: "Irelia",
-    role: [top, mid],
+    role: ["top", "mid"],
     toxic: yes,
     permaban: no,
     price: 4800,
@@ -17,7 +17,7 @@ export const League = [
   },
   {
     champion: "Jinx",
-    role: [adc],
+    role: ["adc"],
     toxic: no,
     permaban: no,
     price: 4800,
@@ -25,7 +25,7 @@ export const League = [
   },
   {
     champion: "Teemo",
-    role: [top],
+    role: ["top"],
     toxic: yes,
     permaban: no,
     price: 1350,
@@ -33,7 +33,7 @@ export const League = [
   },
   {
     champion: "Akali",
-    role: [mid, top],
+    role: ["mid", "top"],
     toxic: yes,
     permaban: no,
     price: 3150,
@@ -41,7 +41,7 @@ export const League = [
   },
   {
     champion: "Twisted Fate",
-    role: [mid],
+    role: ["mid"],
     toxic: no,
     permaban: no,
     price: 1350,
@@ -49,7 +49,7 @@ export const League = [
   },
   {
     champion: "Ryze",
-    role: [mid],
+    role: ["mid"],
     toxic: no,
     permaban: no,
     price: 450,
@@ -58,7 +58,7 @@ export const League = [
   },
   {
     champion: "Ezreal",
-    role: [adc],
+    role: ["adc"],
     toxic: no,
     permaban: no,
     price: 3150,
@@ -66,7 +66,7 @@ export const League = [
   },
   {
     champion: "Lee Sin",
-    role:[jungle],
+    role:["jungle"],
     toxic: no,
     permaban: yes,
     price: 4800,
@@ -74,7 +74,7 @@ export const League = [
   },
   {
     champion:"Sejuani",
-    role:[jungle,top],
+    role:["jungle","top"],
     toxic:no,
     permaban:no,
     price: 4800,
@@ -82,7 +82,7 @@ export const League = [
   },
   {
     champion:"Lulu",
-    role:[support],
+    role:["support"],
     toxic:no,
     permaban:no,
     price:4800,
@@ -90,7 +90,7 @@ export const League = [
   },
   {
     champion: "Draven",
-    role: [adc],
+    role: ["adc"],
     toxic:yes,
     permaban: no,
     price: 4800,
@@ -99,7 +99,7 @@ export const League = [
   
   {
     champion: "Nautilus",
-    role:[support],
+    role:["support"],
     toxic:no,
     permaban:no,
     price: 4800,
@@ -108,7 +108,7 @@ export const League = [
         
   {
     champion: "Vex",
-    role:[mid],
+    role:["mid"],
     toxic:no,
     permaban:no,
     price: 6300,
@@ -116,7 +116,7 @@ export const League = [
   },
   {
     champion: "Vi",
-    role:[jungle],
+    role:["jungle"],
     toxic:no,
     permaban:no,
     price: 4800,
@@ -125,7 +125,7 @@ export const League = [
   },
   {
     champion: "Orianna",
-    role:[mid],
+    role:["mid"],
     toxic:no,
     permaban:no,
     price:4800,
@@ -134,7 +134,7 @@ export const League = [
   },
   {
     champion: "Wukong",
-    role:[top,jungle],
+    role:["top","jungle"],
     toxic:no,
     permaban:no,
     price:4800,
@@ -143,7 +143,7 @@ export const League = [
   },
   {
     champion:"Sion",
-    role:[top],
+    role:["top"],
     toxic:yes,
     permaban:no,
     price:1350,
@@ -151,7 +151,7 @@ export const League = [
   },
   {
     champion:"Senna",
-    role:[support,adc],
+    role:["support","adc"],
     toxic:no,
     permaban:no,
     price:6300,
@@ -159,7 +159,7 @@ export const League = [
   },
   {
     champion: "Rammus",
-    role:[jungle],
+    role:["jungle"],
     toxic:no,
     permaban:no,
     price:1350,
@@ -167,7 +167,7 @@ export const League = [
   },
   {
     champion:"Vladimir",
-    role:[top],
+    role:["top"],
     toxic:no,
     permaban:no,
     price:3150,
@@ -175,7 +175,7 @@ export const League = [
   },
   {
     champion: "Shaco",
-    role:[jungle],
+    role:["jungle"],
     toxic:yes,
     permaban:no,
     price:3150,
@@ -184,7 +184,7 @@ export const League = [
   },
   {
     champion: "Pyke",
-    role:[support],
+    role:["support"],
     toxic:no,
     permaban:no,
     price:6300,

@@ -6,6 +6,17 @@
 }
 
 .img{
-  width: 1000px;
-  height: 1000px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+#h1{
+
+}
+#Mid{
+  align-items: center;
+  position: absolute;
+  right: 50%;
+  bottom:80%;
+  width: 15%;
 }

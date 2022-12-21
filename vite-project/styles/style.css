@@ -53,3 +53,11 @@ text-align: center;
   width: 15%;
   font-size: 2em;
 }
+#List{
+  align-items: center;
+  position: absolute;
+  right: 42%;
+  bottom:85%;
+  width: 15%;
+  font-size: 2em;
+}

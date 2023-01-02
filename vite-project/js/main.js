@@ -10,35 +10,19 @@ Menu:document.getElementById("List")}
 
 
     DOMselectors.Menu.addEventListener("click", function () {
-    //create()
     League.forEach((work) => {
- console.log(Space)
-        DOMselectors.Space.insertAdjacentHTML("afterend",
+        DOMselectors.Menu.insertAdjacentHTML("afterend",
         
         `<div class="display-card">
+        <div class="card">
         <img class="display-img" src= ${work.img}/>
         <h2 class="display-champion" id= "display-champion">${work.champion}</h2>
         <h3 class="display-role" id="display-role">${work.role}</h3>
         <h3 class="display-price" id="display-price">${work.price}</h3>
-        <h3 class="display-permaban" id="display-permaban">${work.permaban}</h3>
-        <h3 class="display-toxic" id="display-toxic">${work.toxic}</h3>
+        </div>
         </div>`)
          })
 })
 
 
-function create(){
- League.forEach((work) => {
- 
-DOMselectors.Space.insertAdjacentHTML("afterend",
-
-`<div class="display-card">
-<img class="display-img" src= ${work.img}/>
-<h2 class="display-champion" id= "display-champion">${work.champion}</h2>
-<h3 class="display-role" id="display-role">${work.role}</h3>
-<h3 class="display-price" id="display-price">${work.price}</h3>
-<h3 class="display-permaban" id="display-permaban">${work.permaban}</h3>
-<h3 class="display-toxic" id="display-toxic">${work.toxic}</h3>
-</div>`)
- })}
 

@@ -61,3 +61,27 @@ text-align: center;
   width: 15%;
   font-size: 2em;
 }
+.display-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+  margin: 10px 20px;
+  width: 25vw;
+  border: black solid 3px;
+  border-radius: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.card{
+  margin: 50px auto;
+  font-style: italic;
+  border-width: 10px;
+  border-style: solid;
+  border-color: red;
+  border-image: initial;
+  padding: 20px 20px;
+  color: gold;
+  box-shadow: 20px 10px 10px black;
+}

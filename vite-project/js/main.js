@@ -12,6 +12,7 @@ Adc:document.getElementById("Adc"),
 Support:document.getElementById("Support"),
 Card:document.getElementById("display-card"),
 Parent:document.getElementById("Parent"),
+theme:document.getElementById("btn")
 }
 
 function makecard(x){
@@ -78,8 +79,9 @@ DOMselectors.Support.addEventListener("click", function Support(event){
     event.preventDefault
 })
 
-document.querySelector(".btn").addEventListener("click", function theme(){
+DOMselectors.theme.addEventListener("click", function theme(){
         if  (document.body.classList.contains("warm"));{
+            
     document.body.classList.add("cool");
     document.body.classList.remove("warm");}
     else {

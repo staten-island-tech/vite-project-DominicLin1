@@ -1,4 +1,4 @@
-
+/* 
 .background{
 
   width: 100vw;
@@ -9,49 +9,56 @@
   width: 100%;
   height: 100%;
   justify-content: center;
-}
+} */
 h1{
 text-align: center;
 }
+.btn{
+  align-items: center;
+  position: absolute;
+  right: 22%;
+  bottom: 95%;
+  width: 15%;
+  font-size: 1em;}
 #Mid{
   align-items: center;
   position: absolute;
   right: 42%;
-  bottom:80%;
+  bottom:90%;
   width: 15%;
-  font-size: 2em;
+  font-size: 1em;
 }
 #Adc{
   align-items: center;
   position: absolute;
   right: 22%;
-  bottom:80%;
+  bottom:90%;
   width: 15%;
-  font-size: 2em;
+  font-size: 1em;
 }
 #Support{
   align-items: center;
   position: absolute;
   right: 3%;
-  bottom:80%;
+  bottom:90%;
   width: 15%;
-  font-size: 2em;
+  font-size: 1em;
 }
 #Jungle{
   align-items: center;
   position: absolute;
   right: 62%;
-  bottom:80%;
+  bottom:90%;
   width: 15%;
-  font-size: 2em;
+  font-size: 1em;
 }
 #Top{
   align-items: center;
   position: absolute;
   right: 82%;
-  bottom:80%;
+  bottom:90%;
   width: 15%;
-  font-size: 2em;
+  font-size: 1em;
 }
 #List{
   align-items: center;
@@ -59,29 +66,41 @@ text-align: center;
   right: 42%;
   bottom:85%;
   width: 15%;
-  font-size: 2em;
+  font-size: 1em;
+}
+#Parent{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .display-card{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
-  padding: 30px;
+  font-size: 25px;
+  padding: 20px;
   margin: 10px 20px;
   width: 25vw;
   border: black solid 3px;
-  border-radius: 10px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  border-radius: 5px;
+  font-family: Caveat,cursive; 
+  flex-shrink: 5;
 }
-.card{
-  margin: 50px auto;
-  font-style: italic;
-  border-width: 10px;
-  border-style: solid;
-  border-color: red;
-  border-image: initial;
-  padding: 20px 20px;
-  color: gold;
-  box-shadow: 20px 10px 10px black;
+:root{
+  --light-blue : #2998ff ; 
+  --dark-red: #dc2626; 
+  --dark-blue: #135cc5; 
+  --light-red: #f87171;
+}
+.warm{
+  --primary:var(--dark-red);
+  --secondary:var(--light-red);
+}
+.cold{
+  --primary:var(--light-blue);
+  --secondary:var(--dark-blue);
 }

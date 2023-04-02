@@ -79,26 +79,13 @@ DOMselectors.Support.addEventListener("click", function Support(event){
     event.preventDefault
 })
 
-/* DOMselectors.theme.addEventListener("click", function theme(){
-        if  (document.body.classList.contains("cool"));
-        {
-            document.body.classList.add("warm");
-            document.body.classList.remove("cool"); }
-
-else {
+DOMselectors.theme.addEventListener("click", function theme(){
+        if  (document.body.classList.contains("warm"));{
+            
+    document.body.classList.add("cool");
+    document.body.classList.remove("warm");}
+    else {
         document.body.classList.add("cool");
         document.body.classList.remove("warm");
-}
-}) */
-DOMselectors.theme.addEventListener("click", function change()
-{
-    if (document.body.classList.contains("cool")){
-        document.body.classList.add("warm");
-        document.body.classList.remove("cool");}
-        else{
-            document.body.classList.add("cool");
-            document.body.classList.remove("warm");
-        }
-
-    }
-)
+  }
+})
